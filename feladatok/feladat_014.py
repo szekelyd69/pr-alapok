@@ -1,22 +1,10 @@
 # feladat_014
-"""
+# while ciklus I.
+# while magyarul azt jelenti: amig
 
-Kérjuk be a vezetek  es keresztnevunket.
-Irassuk ki eljaras segitsegevel a nevunket
-pl:
-Be: kerem a vezetekneved: szekely
-Be: kerem a keresztneved: takacs
-Ki: a nevem takacs istvan
-"""
-from dataclasses import asdict
+szam = 1
+while szam <= 10:
+    print(szam)
+    szam = szam + 1
 
-
-
-
-def nev(vnev,knev):
-    print(f"A nevem {vnev} {knev}.")
-
-vnev = (input("Kérem a vezetéknevedet:")
-knev = (input("Kérem a keresztnevedet:")
-
-nev(vnev,knev)
+print(f"A program vége")
